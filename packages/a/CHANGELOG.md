@@ -1,5 +1,11 @@
 # random-package-for-testing-changesets-a
 
+## 0.2.1
+
+### Patch Changes
+
+- b3bf7f3: a
+
 ## 0.2.0
 
 ### Minor Changes
