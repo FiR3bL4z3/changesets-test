@@ -1,8 +1,13 @@
 {
   "$schema": "https://unpkg.com/@changesets/config@3.0.2/schema.json",
   "changelog": "@changesets/cli/changelog",
-  "commit": false,
-  "fixed": [],
+  "commit": true,
+  "fixed": [
+    [
+      "random-package-for-testing-changesets-a",
+      "random-package-for-testing-changesets-b"
+    ]
+  ],
   "linked": [],
   "access": "public",
   "baseBranch": "master",
