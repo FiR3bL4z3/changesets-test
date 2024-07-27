@@ -1,7 +1,5 @@
 name: Publish packages with changeset
 
-concurrency: ${{ github.workflow }}-${{ github.ref }}
-
 on:
   push:
     branches:
@@ -15,8 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repo
-        uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -37,12 +34,11 @@ jobs:
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
 
-      - name: Create Release Pull Request or Publish to npm
-        id: changesets
-        uses: changesets/action@v1
-        with:
-          # This expects you to have a script called release which does a build for your packages and calls changeset publish
-          publish: yarn build
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Publish packages
+        run: yarn publish-packages
+
+      - name: Push changes
+        run: git push
+
+      - name: Push tags
+        run: git push --tags
