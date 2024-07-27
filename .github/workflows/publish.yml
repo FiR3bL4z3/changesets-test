@@ -28,11 +28,12 @@ jobs:
       - name: Install dependencies
         run: yarn install
 
-      - name: Publish packages
-        run: NPM_TOKEN=${{ secrets.NPM_TOKEN }} yarn publish-packages
-
-      - name: Push changes
-        run: git push
-
-      - name: Push tags
-        run: git push --tags
+      - name: Create Release Pull Request or Publish to npm
+        id: changesets
+        uses: changesets/action@v1
+        with:
+          # This expects you to have a script called release which does a build for your packages and calls changeset publish
+          publish: yarn build
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
