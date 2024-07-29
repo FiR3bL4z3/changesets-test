@@ -1,5 +1,15 @@
 # random-package-for-testing-changesets-a
 
+## 0.4.0
+
+### Minor Changes
+
+- 09f513a: asdasdasdas
+
+### Patch Changes
+
+- 7bbf146: hehehe
+
 ## 0.3.0
 
 ### Minor Changes
