@@ -1,5 +1,11 @@
 # random-package-for-testing-changesets-a
 
+## 0.7.0
+
+### Minor Changes
+
+- 981273b: 0.7.0 letsgoooooo
+
 ## 0.6.0
 
 ### Minor Changes
