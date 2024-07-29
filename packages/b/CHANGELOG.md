@@ -1,5 +1,11 @@
 # random-package-for-testing-changesets-b
 
+## 0.7.1
+
+### Patch Changes
+
+- b580776: tagpushing
+
 ## 0.7.0
 
 ### Minor Changes
