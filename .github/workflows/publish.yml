@@ -46,3 +46,4 @@ jobs:
           git add .
           git commit -m "Deploy packages"
           git push
+          git push --tags
