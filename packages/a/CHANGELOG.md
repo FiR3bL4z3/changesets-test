@@ -1,5 +1,11 @@
 # random-package-for-testing-changesets-a
 
+## 0.8.0
+
+### Minor Changes
+
+- 75b70a5: change email
+
 ## 0.7.2
 
 ### Patch Changes
