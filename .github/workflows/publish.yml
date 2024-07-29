@@ -41,8 +41,8 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git config --global user.name 'Deploy[bot]'
-          git config --global user.email 'deploy-bot@noreply.com'
+          git config --global user.name 'Deploy Bot'
+          git config --global user.email 'team@bring.team'
           if ! git diff-index --quiet HEAD; then
             git add .
             git commit -m "Deploy packages"
