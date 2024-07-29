@@ -1,6 +1,6 @@
 {
   "name": "random-package-for-testing-changesets-b",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "scripts": {
     "build": "tsup"
   },
