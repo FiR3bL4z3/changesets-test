@@ -1,5 +1,11 @@
 # random-package-for-testing-changesets-a
 
+## 0.3.0
+
+### Minor Changes
+
+- 2a83529: testing github workflow
+
 ## 0.2.1
 
 ### Patch Changes
