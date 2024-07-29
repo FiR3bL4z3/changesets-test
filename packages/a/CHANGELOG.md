@@ -1,5 +1,7 @@
 # random-package-for-testing-changesets-a
 
+## 0.5.0
+
 ## 0.4.0
 
 ### Minor Changes

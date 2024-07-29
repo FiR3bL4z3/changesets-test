@@ -1,5 +1,11 @@
 # random-package-for-testing-changesets-b
 
+## 0.5.0
+
+### Minor Changes
+
+- 2d71ae7: This is working :)
+
 ## 0.4.0
 
 ## 0.3.0
