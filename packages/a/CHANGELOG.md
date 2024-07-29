@@ -1,5 +1,12 @@
 # random-package-for-testing-changesets-a
 
+## 0.7.2
+
+### Patch Changes
+
+- 496dc0d: readd
+- 6aa2ec6: remove push
+
 ## 0.7.1
 
 ### Patch Changes
