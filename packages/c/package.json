@@ -1,0 +1,11 @@
+{
+  "name": "random-package-for-testing-changesets-c",
+  "version": "0.8.0",
+  "private": true,
+  "scripts": {
+    "build": "tsup"
+  },
+  "devDependencies": {
+    "tsup": "^8.2.3"
+  }
+}

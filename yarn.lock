@@ -2254,6 +2254,14 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"random-package-for-testing-changesets-c@workspace:packages/c":
+  version: 0.0.0-use.local
+  resolution: "random-package-for-testing-changesets-c@workspace:packages/c"
+  dependencies:
+    tsup: "npm:^8.2.3"
+  languageName: unknown
+  linkType: soft
+
 "read-yaml-file@npm:^1.1.0":
   version: 1.1.0
   resolution: "read-yaml-file@npm:1.1.0"

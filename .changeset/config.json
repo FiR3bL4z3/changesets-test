@@ -5,7 +5,8 @@
   "fixed": [
     [
       "random-package-for-testing-changesets-a",
-      "random-package-for-testing-changesets-b"
+      "random-package-for-testing-changesets-b",
+      "random-package-for-testing-changesets-c"
     ]
   ],
   "linked": [],
