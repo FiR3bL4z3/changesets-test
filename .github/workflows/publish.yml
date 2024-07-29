@@ -45,3 +45,5 @@ jobs:
           git config --global user.email 'deploy-bot@noreply.com'
           git add .
           git commit -m "Deploy packages"
+          git push
+          git push --tags
