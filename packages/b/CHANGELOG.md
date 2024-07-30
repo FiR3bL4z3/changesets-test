@@ -1,5 +1,11 @@
 # random-package-for-testing-changesets-b
 
+## 0.10.0
+
+### Minor Changes
+
+- fcb75c7: Fixed bug console.log
+
 ## 0.9.0
 
 ## 0.8.0

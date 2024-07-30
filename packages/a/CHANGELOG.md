@@ -1,5 +1,7 @@
 # random-package-for-testing-changesets-a
 
+## 0.10.0
+
 ## 0.9.0
 
 ## 0.8.0
